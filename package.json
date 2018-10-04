@@ -1,0 +1,29 @@
+{
+  "name": "doc-sharing-apk",
+  "version": "1.0.0",
+  "description": "These all are insightRX services",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "author": "architgajjar1992@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "csvtojson": "^2.0.8",
+    "dotenv": "^5.0.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.1.0",
+    "run-local-lambda": "^1.1.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "request": "^2.88.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "verbose": true
+  }
+}
